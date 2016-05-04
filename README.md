@@ -1,9 +1,9 @@
 # ProjectEuler
 solving https://projecteuler.net/ in Python 2.7
 
-###### **Problem #1** Multiples of 3 and 5 **[in-progress]**
+**Problem #1** Multiples of 3 and 5 [**[solved]**](Problem1.py)
 
-**Problem #2** Even Fibonacci numbers
+######**Problem #2** Even Fibonacci numbers **[in-progress]**
 
 **Problem #3**
 
