@@ -1,4 +1,4 @@
-# Project Euler solutions by Girish 
+# Project Euler solution by Girish 
 
 # Problem 1 (Status : Success)
 
