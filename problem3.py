@@ -1,16 +1,25 @@
 # Project Euler solutions by Girish 
 
-# Problem 3 (Status : Incomplete)
+# Problem 3 (Status : Success)
 
-class problem3:  # incomplete 
-	def __init__(self):
-		print "problem 3"
+N = 600851475143
+all_factors = []
+prime_factors = []
+starting_number = 2
 
-	def prime_number:
-		pass
-		
+def is_prime(a):
+    return all(a % i for i in xrange(2, a))
 
-	#i = 0
-	#while i<=600851475143:
+while True:
+    if N % starting_number == 0:
+        all_factors.append(starting_number)
+        N = N / starting_number
+        if is_prime(N):
+            all_factors.append(N)
+            break
+    else:
+        starting_number += 1
 
-# Output : --
+print max(all_factors)
+
+# Output : 6857
